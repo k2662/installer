@@ -26,10 +26,10 @@ jobs:
     - name: Setup environment variables
       uses: allenevans/set-env@0f3306034af0ea21dd28983b6e7c1614ee317739 # v3.0.0
       with:
-        MAJOR_VERSION: 17
-        FULL_VERSION: 17.0.3_7
-        TAG: jdk-17.0.3+7
-        SUB_TAG: 17.0.3_7
+        MAJOR_VERSION: 21
+        FULL_VERSION: 21.0.1
+        TAG: jdk-21.0.1+12
+        SUB_TAG: 21.0.1
         JVM: hotspot
 
     - name: Download prebuilt binaries
